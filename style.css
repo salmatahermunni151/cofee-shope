@@ -29,7 +29,7 @@ nav ul li{
 }
 /* banner code start here  */
 .banner-parent{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.116)), url(./image/banner-3.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.37),rgba(0, 0, 0, 0.144)), url(./image/banner-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -70,4 +70,40 @@ nav ul li{
 }
 .banner-button:hover{
     background-color: rgb(49, 94, 179);
+}
+/* first section code start here */
+section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.233),rgba(0, 0, 0, 0.144)), url(./image/sec-1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.welcome-items{
+    padding-top: 160px;
+    margin-left: 600px;
+    margin-right: 50px;
+}
+.welcome-items h2{
+    font-size: 40px;
+    color: rgb(34, 34, 34);
+    margin: 15px 0;
+}
+.welcome-items h4{
+    color: rgb(102, 142, 216);
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+.welcome-items p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.welcome-btn{
+    background-color: rgb(102, 142, 216);
+    color: #fff;
+    padding: 12px 35px;
+    font-size: 16px;
+    border: none;
+    margin-top: 30px;
 }

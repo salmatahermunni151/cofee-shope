@@ -30,6 +30,20 @@
   .banner-items h3{
       font-size: 28px;
   }
+  /* first section responsive code start here */
+  .welcome-items{
+   padding-top: 15%;
+   margin: 0 10px;
+   text-align: center;
+}
+.welcome-items h2{
+   font-size: 30px;
+   margin: 10px 0;
+}
+.welcome-items p{
+   font-size: 14px;
+   line-height: 1.5;
+}
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
    .logo h2{
@@ -58,6 +72,20 @@
       }
       .banner-items h3{
             font-size: 28px;
+      }
+      /* first section responsive code start here */
+      .welcome-items{
+         padding-top: 15%;
+         margin: 0 20px;
+         text-align: center;
+      }
+      .welcome-items h2{
+         font-size: 40px;
+         margin: 10px 0;
+      }
+      .welcome-items p{
+         font-size: 16px;
+         line-height: 1.5;
       } 
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -87,7 +115,21 @@
          }
          .banner-items h3{
                font-size: 33px;
-         }   
+         }  
+          /* first section responsive code start here */
+      .welcome-items{
+         padding-top: 15%;
+         margin-left: 400px;
+         margin-right: 30px;
+      }
+      .welcome-items h2{
+         font-size: 40px;
+         margin: 14px 0;
+      }
+      .welcome-items p{
+         font-size: 16px;
+         line-height: 1.5;
+      }  
 }
 @media screen and (min-width: 993px) and (max-width: 1200px) {
    .logo h2{
@@ -114,5 +156,19 @@
          }
          .banner-items h3{
                font-size: 33px;
-         }   
+         }
+             /* first section responsive code start here */
+      .welcome-items{
+         padding-top: 10%;
+         margin-left: 500px;
+         margin-right: 30px;
+      }
+      .welcome-items h2{
+         font-size: 45px;
+         margin: 14px 0;
+      }
+      .welcome-items p{
+         font-size: 17px;
+         line-height: 1.5;
+      }     
 }
