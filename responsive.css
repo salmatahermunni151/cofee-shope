@@ -1,0 +1,118 @@
+@media screen and (min-width: 300px) and (max-width: 576px) {
+   .logo h2{
+    font-size: 22px;
+   }
+    nav{
+    padding: 15px 40px;
+   } 
+   .hidden{
+    display: none;
+   }
+   nav ul li{
+    display: none;
+   }
+   .block{
+      display: block;
+      font-size: 15px;
+   }
+   /* banner responsive code start here  */
+   .banner-items{
+      padding-top: 100px;
+  }
+  .banner-items h4{
+      font-size: 20px;
+  }
+  .banner-items h1{
+      font-size: 80px;
+      letter-spacing: 6px;
+      font-weight: 700;
+  }
+  .banner-items h3{
+      font-size: 28px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+   .logo h2{
+      font-size: 22px;
+     }
+      nav{
+      padding: 15px 40px;
+     } 
+     nav ul li{
+      font-size: 15px;
+     } 
+     .block-2{
+      display: none;
+     } 
+     /* banner responsive code start here  */
+     .banner-items{
+      padding-top: 100px;
+      }
+      .banner-items h4{
+            font-size: 20px;
+      }
+      .banner-items h1{
+            font-size: 120px;
+            letter-spacing: 6px;
+            font-weight: 700;
+      }
+      .banner-items h3{
+            font-size: 28px;
+      } 
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .logo h2{
+      font-size: 22px;
+     }
+      nav{
+      padding: 15px 40px;
+     } 
+     nav ul li{
+      font-size: 15px;
+     } 
+     .block-2{
+      display: none;
+     }
+      /* banner responsive code start here  */
+      .banner-items{
+         padding-top: 100px;
+         }
+         .banner-items h4{
+               font-size: 25px;
+         }
+         .banner-items h1{
+               font-size: 150px;
+               letter-spacing: 6px;
+               font-weight: 700;
+         }
+         .banner-items h3{
+               font-size: 33px;
+         }   
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+   .logo h2{
+      font-size: 28px;
+     }
+      nav{
+      padding: 15px 40px;
+     } 
+     nav ul li{
+      font-size: 16px;
+     } 
+      /* banner responsive code start here  */
+      .banner-items{
+         padding-top: 100px;
+         }
+         .banner-items h4{
+               font-size: 25px;
+         }
+         .banner-items h1{
+               font-size: 150px;
+               letter-spacing: 6px;
+               font-weight: 700;
+               margin: 10px 0;
+         }
+         .banner-items h3{
+               font-size: 33px;
+         }   
+}

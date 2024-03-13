@@ -4,3 +4,70 @@
     margin: 0;
     font-family: "Roboto", sans-serif;
 }
+/* nav code start here  */
+.logo h2{
+    font-size: 28px;
+    color: yellow;
+}
+nav{
+    background-color: #1a0f06;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 70px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    list-style: none;
+    margin-left: 45px;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* banner code start here  */
+.banner-parent{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.493),rgba(0, 0, 0, 0.116)), url(./image/banner-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.banner-items{
+    color: #fff;
+    text-align: center;
+    padding-top: 110px;
+}
+.banner-items h4{
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(148, 167, 204);
+}
+.banner-items h1{
+    font-size: 160px;
+    color: #000000d7;
+    letter-spacing: 12px;
+    margin: 15px 0;
+}
+.banner-items h3{
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+}
+.banner-button{
+    background-color: rgb(102, 142, 216);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid rgb(75, 75, 75);
+    margin-top: 35px;
+    transition: 0.5s;
+}
+.banner-button:hover{
+    background-color: rgb(49, 94, 179);
+}
